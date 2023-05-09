@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%; /* 10px */
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.6rem;
+	position: relative;
+}
+
+[id] {
+	scroll-margin-top: 84px;
+}
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 69px;
+	}
+}
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: -1;
+}
+
+.orange-color {
+	color: rgb(247, 181, 0);
+	color: #be583c;
+}
+
+/*nawigacja*/
+.navbar-brand {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+.nav-link,
+.navbar-toggler-icon {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+}
+.navbar-toggler {
+	padding: 1em 1.5em;
+}
+
+/*hello*/
+
+.home {
+	position: relative;
+	height: 50rem;
+	background-image: url("/img/header2.jpg");
+	/* background-image: url(/img/header1.jpg); */
+	/* background-image: url(/img/boards.jpg); */
+	/* background-image: url(/img/sunrise.jpg); */
+	/* background-image: url("/img/sea_header.jpg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 0;
+}
+.home .btn {
+	padding: 1.3rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+.home .welcome-text {
+	font-size: 2rem;
+}
+/*abot us*/
+.aboutus-box h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.color-orange {
+	background-color: #fdc05d;
+}
+
+.accordion-button {
+	font-size: 1.8rem;
+	padding: 1em;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #fcb139;
+	background-color: #fffcec;
+	color: rgb(233, 106, 22);
+}
+
+/*team*/
+.team {
+	background-color: #fffcec;
+}
+
+.team img {
+	height: 250px;
+	object-fit: cover;
+}
+.team .card-title {
+	font-size: 2rem;
+}
+
+.form-control {
+	font-size: 1.6rem;
+}
+.btn {
+	font-size: 1.6rem;
+}
+.contact h3 {
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}

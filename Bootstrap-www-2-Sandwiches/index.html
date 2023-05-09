@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Layout</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous" />
+		<script src="https://kit.fontawesome.com/30f0edc946.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#navbar-spy">
+		<header id="home" class="home">
+			<div class="container text-light d-flex flex-column align-items-center justify-content-center h-100">
+				<p class="title m-0">Kanapczosy</p>
+				<p class="subtitle mb-5 text-center">Ze wszystkich dań na Świecie, najlepsze są kanapki</p>
+				<a href="#aboutUs" class="btn btn-outline-light px-5 py-2">No raczej!</a>
+			</div>
+
+			<div class="hero-shadow"></div>
+		</header>
+
+		<nav class="navbar-expand-lg navbar navbar-dark bg-dark sticky-top px-5 py-2 mb-3">
+			<div class="container">
+				<!-- <a class="navbar-brand" href="#home">
+						<i class="fa-solid fa-burger me-2"></i>
+						Kanapczosy
+					</a> -->
+				<button
+					class="navbar-toggler m-auto"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav m-auto text-center">
+						<a class="nav-link active" aria-current="page" href="#home">Home</a>
+						<a class="nav-link" href="#aboutUs">O nas</a>
+						<a class="nav-link" href="#sandwich">Kanapczosy</a>
+						<a class="nav-link" href="#contact">Kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<section class="aboutUs py-5" id="aboutUs">
+				<div class="aboutUs-title mb-5">
+					<p class="display-4">O nas</p>
+				</div>
+				<div class="aboutUs-txt">
+					<div class="row row-cols-1 row-cols-md-2">
+						<div class="col col-md-5 mb-5">
+							<div class="card card-about">
+								<img src="Img/about.jpg" alt="about-foto" />
+							</div>
+						</div>
+						<div class="col col-md-7 ps-5">
+							<div class="about-txt mb-5">
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad soluta veniam, corrupti consectetur
+									eveniet repudiandae aperiam dolores sunt culpa. Aperiam dolore asperiores, molestiae voluptas nisi
+									porro nulla voluptatum facilis iusto dignissimos repudiandae beatae deleniti error debitis, sint
+									consectetur incidunt corporis.
+								</p>
+							</div>
+							<div class="container row row-cols-2 p-0 d-flex">
+								<div class="col-8">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								</div>
+								<div class="col-4">
+									<a href="#sandwich" class="btn btn-outline border border-dark px-5 py-2 mt-3">Sprawdź</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slajder text-center">
+					<div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="Img/sandwich_croissant.jpg" class="d-block w-100" alt="sandwich_with_croissant" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/sandwich_with_chease.jpg" class="d-block w-100" alt="sandwich_with_chease" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/sandwich_with_egg.jpg" class="d-block w-100" alt="sandwich_with_egg" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/sandwich_with_meat.jpg" class="d-block w-100" alt="sandwich_with_meat" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/jajka_sadzone.jpg" class="d-block w-100" alt="" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/jajka_salatka.jpg" class="d-block w-100" alt="" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/kielki.jpg" class="d-block w-100" alt="" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/konfitura.jpg" class="d-block w-100" alt="" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/tost.jpg" class="d-block w-100" alt="" />
+							</div>
+							<div class="carousel-item">
+								<img src="Img/pieczywo.jpg" class="d-block w-100" alt="" />
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleFade"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleFade"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="sandwich py-5" id="sandwich">
+				<div class="sandwich-title">
+					<p class="display-4 mb-5">Kanapczosy</p>
+				</div>
+
+				<div class="sandwich-txt">
+					<div class="row row-cols-1 row-cols-md-3 g-5">
+						<div class="col">
+							<div class="card text-center border border-1 border-dark">
+								<img src="Img/tost.jpg" class="card-img-top" alt="..." />
+								<div class="card-body p-3">
+									<h2 class="card-title text-uppercase mb-3">Glutenfree</h2>
+									<p class="card-text">Bez glutenu, ale z wyśmienitym smakiem</p>
+
+									<button type="button" class="btn btn-outline border border-dark mt-3 px-5 py-2">Sprawdź</button>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center border border-1 border-dark">
+								<img src="Img/jajka_sadzone.jpg" class="card-img-top" alt="..." />
+								<div class="card-body p-3">
+									<h2 class="card-title text-uppercase mb-3">Wytrawnie</h2>
+									<p class="card-text">To najlepszy rodzaj kanapek ever!</p>
+
+									<button type="button" class="btn btn-outliner border border-dark mt-3 px-5 py-2">Sprawdź</button>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center border border-1 border-dark">
+								<img src="Img/konfitura.jpg" class="card-img-top" alt="..." />
+								<div class="card-body p-3">
+									<h2 class="card-title text-uppercase mb-3">Na słodko</h2>
+									<p class="card-text">Uwielbiane nie tylko przez dzieci</p>
+
+									<button type="button" class="btn btn-outliner border border-dark mt-3 px-5 py-2">Sprawdź</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact py-5" id="contact">
+				<div class="contact-title">
+					<p class="tytul display-4 mb-5">Kontakt</p>
+				</div>
+				<div class="contact-txt text-center">
+					<div class="row forms row-cols-md-2 mb-5">
+						<div class="contact-data col-md-4 mb-4">
+							<div class="card h-100">
+								<div class="card-body">
+									<h4 class="card-title text-uppercase mb-3">dane kontaktowe</h4>
+
+									<p class="card-text-top">Adres:</p>
+									<p class="card-text">
+										ul. Długa 0
+										<br />
+										00-000 Kraków
+									</p>
+									<p>
+										Telefon:
+										<br />
+										+48 700 000 000
+									</p>
+									<p>
+										E-mail:
+										<br />
+										mail@gmail.com
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="contact-form col-md-8">
+							<div class="card h-100">
+								<div class="card-body">
+									<h4 class="card-title text-uppercase mb-4">formularz kontaktowy</h4>
+									<div class="row row-cols-2">
+										<div class="contact-form-left mb-2">
+											<div class="labels mb-1">
+												<label for="exampleFormControlInput1" class="form-label">Imię i nazwisko</label>
+												<input
+													type="email"
+													class="form-control"
+													id="exampleFormControlInput1"
+													placeholder="Imię i nazwisko" />
+											</div>
+										</div>
+										<div class="contact-form-right">
+											<div class="labels mb-3">
+												<label for="exampleFormControlInput1" class="form-label">Adres mailowy</label>
+												<input
+													type="email"
+													class="form-control"
+													id="exampleFormControlInput1"
+													placeholder="Imię i nazwisko" />
+											</div>
+										</div>
+									</div>
+									<div class="container contact-message mb-2">
+										<div class="contact-message-text mb-3">
+											<label for="exampleFormControlTextarea1" class="form-label">Wpisz treść wiadomości</label>
+											<textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+											<button class="btn btn-last btn-outliner border border-dark px-5 py-2" type="button">
+												Wyślij
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="text-light bg-dark text-center p-3">@Kanapczosy</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"></script>
+		<script>
+			const nav = document.querySelector(`.navbar-collapse`);
+			document.addEventListener(`click`, () => {
+				if (nav.classList.contains(`show`)) {
+					nav.classList.remove(`show`);
+				}
+			});
+		</script>
+	</body>
+</html>
