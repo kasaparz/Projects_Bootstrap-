@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+.top-hero {
+	position: relative;
+	height: 400px;
+	background-size: cover;
+	z-index: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -650px;
+}
+.top-hero2 {
+	position: relative;
+	height: 400px;
+	background-size: cover;
+	z-index: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -150px;
+}
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	height: 400px;
+}
+.services-hero {
+	/* background-image: url(/img2/nature-wallpaper-7241074_1920.jpg); */
+
+	background-image: url("/Img/wave-1913559_1920.jpg");
+
+
+	background-size: cover;
+}
+.projects-hero {
+	background-image: url("/Img/oferta4.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.contact-hero {
+	background-image: url("/Img/shelby-g28618687f_1920.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/*nawigacja*/
+
+nav {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	font-size: 3rem;
+}
+
+.navbar-brand {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: none;
+}
+
+header {
+	font-size: 2rem;
+}
+
+.carousel-item {
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: 0;
+}
+
+.carousel-img-one {
+	background-image: url("/Img/surfing-2212948_1920.jpg");
+}
+
+.carousel-img-two {
+	background-image: url("/Img/kite-surfing-4288247_1920.jpg");
+}
+.carousel-img-three {
+	background-image: url("/Img/windsurfing-7074728_1920.jpg");
+}
+
+@media (min-width: 1400px) {
+	/*wysokość karuzeli na 600px*/
+
+	.carousel-item {
+		height: 500px;
+	}
+}
+
+.card-title {
+	font-weight: bold;
+}
+.card-text {
+	font-size: 1.4rem;
+}
+
+.header2 {
+	width: 100%;
+	height: 200px;
+	color: white;
+	background-image: url("/Img/people-2359870_1920.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+}
+.home-brand h3 {
+	font-weight: bold;
+}
+.surf {
+	height: 400px;
+}
+/*about-us*/
+.aboutus-hero {
+	background-image: url("/Img/beach-1096598_1920.jpg");
+}
+/*goals*/
+.aboutus-info {
+	background-color: rgb(248, 248, 248);
+}
+.aboutus-info h2 {
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-bottom: 1.2rem;
+	font-style: italic;
+	text-transform: uppercase;
+	/* text-decoration-line: underline;
+	text-decoration-color: orange; */
+}
+.aboutus-text {
+	padding: 1.9rem;
+}
+.aboutus-info .container {
+	padding: 3rem 1rem;
+}
+.aboutus-text-right {
+	text-align: right;
+}
+.aboutus-img {
+	object-fit: cover;
+}
+
+.aboutus-bottom i {
+	font-size: 3rem;
+}
+.aboutus-bottom h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+	.aboutus-text {
+		padding: 5em 0;
+		transform: skew(-15deg);
+	}
+	.aboutus-img {
+		transform: skew(-15deg);
+	}
+	.aboutus-text-right {
+		text-align: left;
+		padding-left: 0.5em;
+		padding-top: 1em;
+	}
+	.aboutus-text-left {
+		text-align: right;
+		padding-right: 1.5em;
+		padding-top: 1em;
+	}
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgb(0, 0, 0, 0.4);
+	}
+}
+
+/*services*/
+
+.service {
+	position: relative;
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	z-index: 0;
+}
+.service-shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.3);
+	z-index: -1;
+}
+.one {
+	background-image: url("/Img/surf.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.two {
+	background-image: url("/Img/kite.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.three {
+	background-image: url("/Img/wind.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.four {
+	background-image: url("/Img/kitewind.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.description h2 {
+	font-size: 2rem;
+}
+.service h3 {
+	text-transform: uppercase;
+	color: white;
+}
+/*projekty*/
+
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+.projects .btn {
+	font-size: 1.4rem;
+}
+.contact h2 {
+	font-size: 2.6rem;
+}
+.contact p {
+	font-size: 1rem;
+}
+.labels {
+	font-size: 1rem;
+}
+.contact-message-text {
+	font-size: 1rem;
+}
+.map-container {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+.map-container iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.card-footer p {
+	font-size: 2rem;
+}
+
+.card-body .card-text-top {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/*kontakt*/
+
+/*footer*/
+
+footer {
+	font-size: 1.6rem;
+}
